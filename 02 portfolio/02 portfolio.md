@@ -2,11 +2,20 @@
 
 # Portfolio
 
-> written work
+> add resume and cover letter
 
+%%
+**Project Title: [Add title]**
+- Description: 
+- Role: 
+- Skills Applied: 
+- Outcome: 
+%%
 
-> visual communication
+## Written Work
 
-> reflections
+## Visual Communication
+
+## reflections
 
 ![[Footer#^footer]]

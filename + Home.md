@@ -1,19 +1,30 @@
 ![[Nav#^nav]]
 
-# Home
-
-> welcome message
-
-> tagline/mission statement
+%%> welcome message%%
+# Header 
 
 > visual
 
-> link to main site
+Hi, I'm 
+Mary Seph
+Environmental Science and Policy undergrad
 
-[main site](https://maryseph.github.io/).
+%%> tagline/mission statement%%
+%%~~I'm an interdisciplinary Environmental Science and Policy undergrad seeking to pursue a career in Science Communication to support projects that educate and empower scientific and non-scientific audiences about local and global environmental issues and solutions.~~%%
 
-<a href="https://maryswritinggarden.wordpress.com/"><img src="/images/iconmonstr-wordpress-3.svg" alt="wordpress logo" /> </a><a href="https://github.com/MarySeph"><img src="/images/iconmonstr-github-3.svg" alt="github logo" /></a> <a href="https://www.linkedin.com/in/mariajoseruizpiza/"><img src="/images/iconmonstr-linkedin-3.svg" alt="linkedin logo" /></a> <a href="https://maryseph.github.io/MarySeph-Linktree/"><img src="/images/iconmonstr-link-1.svg" alt="linktree" /></a>
+> [[03 cv|Download CV]] | [[06 contact|Contact Info]]
+> <a href="https://maryswritinggarden.wordpress.com/"><img src="/images/iconmonstr-wordpress-3.svg" alt="wordpress logo" /> </a><a href="https://github.com/MarySeph"><img src="/images/iconmonstr-github-3.svg" alt="github logo" /></a> <a href="https://www.linkedin.com/in/mariajoseruizpiza/"><img src="/images/iconmonstr-linkedin-3.svg" alt="linkedin logo" /></a> <a href="https://maryseph.github.io/MarySeph-Linktree/"><img src="/images/iconmonstr-link-1.svg" alt="linktree" /></a><a href="https://maryseph.github.io/MarySeph-Linktree/"><img src="/images/.svg" alt="mastodon" /></a>
 
+%%> link to main site%%
+This site a growing portfolio of my academic and professional work. For my main site, visit [here](https://maryseph.github.io/).
+
+![[01 about#About Me]]
+
+![[03 experience#Experience]]
+
+![[02 projects#Projects]]
+
+![[06 contact#Contact]]
 
 ![[Footer#^footer]]
 

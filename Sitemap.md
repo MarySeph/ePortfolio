@@ -16,12 +16,12 @@ A simplified map of this site.
 
 ## [[02 portfolio|portfolio]]
 
-## [[03 experience & skills|experience & skills]]
-- [[03 experience & skills#Experience]]
-	- [[03 experience & skills#Leadership & Volunteering]]
-- [[03 experience & skills#Skills]]
-- [[03 experience & skills#Languages]]
-- [[03 experience & skills#Professional Associations]]
+## [[03 cv|experience & skills]]
+- [[03 cv#Experience]]
+	- [[03 cv#Leadership & Volunteering]]
+- [[03 cv#Skills]]
+- [[03 cv#Languages]]
+- [[03 cv#Professional Associations]]
 
 ## [[06 contact|contact]]
 

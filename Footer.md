@@ -1,5 +1,5 @@
-[[Sitemap| sitemap]] | [[Accessibility|accessibility]] | [[Colophon|colophon]]
- [♡](https://copyheart.org/) 2025 Maryseph ^footer
+[[Accessibility|accessibility]] | [[Colophon|colophon]]
+ © 2025 Mary Seph. All rights reserved. ^footer
 
 <p align="center">
 <a href="obsidian://open?vault=Marys-Creative-Corner&file=Home">Home</a> |

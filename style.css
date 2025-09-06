@@ -19,6 +19,19 @@
     --hr: #bb9860;
 }
 
+/* ALT Colors - Light Mode 
+--color: ;
+--background:  ;
+
+--link: ;
+--linkhover: ;
+
+--accentbg: ;
+--hr: ;
+
+*/
+
+
 
 /* GENERAL */
 
@@ -88,7 +101,7 @@ a:hover{
 }
 
 /* HAMBURGER MENU */
-/* Change to kalechip's "Accessible hamburger menu (https: //kalechips.net/projects/snippets/burger)" */
+/* Change to kalechip's "Accessible hamburger menu (https: //kalechips.net/projects/snippets/burger)"
 
 #hamburger-nav{
     display: none;
@@ -167,6 +180,97 @@ a:hover{
 .hamburger-icon span:first-child {
     transform: none;
 }
+
+*/
+
+/* RESPONSIVE HAMBURGER MENU */
+
+:root {
+    --background: #FFF;
+    --color: #000;
+
+    --burgericon: url(/assets/burger.svg);
+    /* Path to burger vector */
+    --closeicon: url(/assets/close.svg);
+    /* Path to close vector */
+}
+
+#burger {
+    width: 100%;
+    background: var(--background);
+    position: fixed;
+    z-index: 1000;
+}
+
+#burger summary {
+    list-style-type: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: var(--background);
+    padding: 5px;
+}
+
+#burger summary::before,
+#burger[open]>summary::before {
+    height: 40px;
+    width: 40px;
+    background: var(--color);
+}
+
+#burger summary::-webkit-details-marker {
+    display: none;
+}
+
+#burger summary::before {
+    content: '';
+    mask-image: url(/assets/burger.svg);
+    -webkit-mask-image: url(/assets/burger.svg);
+    mask-size: 40px;
+    -webkit-mask-size: 40px;
+}
+
+#burger[open]>summary::before {
+    content: '';
+    mask-image: url(/assets/close.svg);
+    -webkit-mask-image: url(/assets/close.svg);
+    mask-size: 40px;
+    -webkit-mask-size: 40px;
+}
+
+#burger[open] {
+    position: fixed;
+}
+
+.skip a {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip a:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+#burger #menu {
+    height: calc(100vh - 50px);
+    z-index: 1000;
+    position: relative;
+    overflow: auto;
+    background: var(--background);
+}
+
+#burger #menu ul {
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
 
 /* SECTIONS */
 

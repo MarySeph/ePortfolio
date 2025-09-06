@@ -19,7 +19,8 @@
       </ul>
     </div>
   </nav>
-  <nav id="hamburger-nav">
+  
+  <!-- <nav id="hamburger-nav">
     <div class="logo">John Doe</div>
     <div class="hamburger-menu">
       <div class="hamburger-icon" onclick="toggleMenu()">
@@ -34,7 +35,22 @@
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </div>
-  </nav>
+  </nav> -->
+
+  <details id="burger">
+    <summary id="toggle">Menu</summary>
+    <nav id="menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="skip"><a href="#toggle">Close menu</a></li>
+      </ul>
+    </nav>
+  </details>
+
+
   <section id="profile">
     <div class="section__pic-container">
       <img src="./assets/profile-pic.png" alt="John Doe profile picture">
